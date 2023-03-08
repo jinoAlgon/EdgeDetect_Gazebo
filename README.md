@@ -5,13 +5,7 @@ This project aims to create a boundary for the robot using any object (such as m
 1. The gazebo world with the Robot launch
 ![Alt text](https://github.com/jinoAlgon/EdgeDetect_Gazebo/blob/main/output_snaps/My_world.jpg "my_world title")
 
-2. RGB images
-![Alt text](https://github.com/jinoAlgon/EdgeDetect_Gazebo/blob/main/output_snaps/RGB_images.jpg "my_world RGB")
-
-3. B&W Canny images
-![Alt text](https://github.com/jinoAlgon/EdgeDetect_Gazebo/blob/main/output_snaps/Canny_edges.jpg "my_world canny")
-
-4. Detecting edges
+2. Detecting edges
 ![Alt text](https://github.com/jinoAlgon/EdgeDetect_Gazebo/blob/main/output_snaps/Entire_image.jpg "my_world canny")
 
 # Requirements
