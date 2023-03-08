@@ -13,4 +13,32 @@ This project aims to create a boundary for the robot using any object (such as m
 2. Install ROS 2 and all necessary dependencies.
 3. Create a taped boundary for the robot using any object.
 4. Connect the robot to the system and ensure that it has sensors for edge detection.
+# Run
+1. Create a workspace and Make sure you are in the src folder before running the package creation command.
+  cd ~/ros2_ws/src
 
+2. Creating a new package in ROS 2 is:
+ros2 pkg create --build-type ament_cmake <package_name>
+
+3. Clone the repository
+https://github.com/jinoAlgon/EdgeDetect_Gazebo.git
+
+4. Then go to your workspace directory and run
+* source /opt/ros/humble/setup.bash
+* colcon build
+
+5. Open a new terminal and use
+ros2 launch 
+EdgeDetect_Gazebo launch_sim.launch.py world:=/home/jino/dev_ws/src/my_car/worlds/my_home.world
+
+6. Open a new terminal and cd into  EdgeDetect_Gazebo/launch/
+
+7. Enter this command
+python3 new_1.py
+
+# Screenshots
+
+# Usage
+* Launch the ROS 2 node for the robot boundary control.
+* Start the robot and ensure that it stays within the taped area.
+* Observe the robot's behavior in case of an edge detection.
