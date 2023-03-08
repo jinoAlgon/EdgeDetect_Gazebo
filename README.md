@@ -1,6 +1,10 @@
 # Robot Boundary Control using ROS 2
 This project aims to create a boundary for the robot using any object (such as mounting tape), and ensure that the robot stays within the taped area. This solution builds upon the previous term's assessment in which the iRobot was following hand gestures, and eliminates the need for hand gestures.
 
+# Screenshots
+1. The gazebo world with the Robot launch
+![Alt text](https://github.com/jinoAlgon/EdgeDetect_Gazebo/blob/main/output_snaps/My_world.jpg "my_world title")
+
 # Requirements
 * ROS 2 (version "Humble" or later)
 * Any object that can be used to create a boundary (such as mounting tape)
