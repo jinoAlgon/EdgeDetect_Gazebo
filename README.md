@@ -13,7 +13,4 @@ This project aims to create a boundary for the robot using any object (such as m
 2. Install ROS 2 and all necessary dependencies.
 3. Create a taped boundary for the robot using any object.
 4. Connect the robot to the system and ensure that it has sensors for edge detection.
-# Usage
-Launch the ROS 2 node for the robot boundary control.
-Start the robot and ensure that it stays within the taped area.
-Observe the robot's behavior in case of an edge detection.
+
